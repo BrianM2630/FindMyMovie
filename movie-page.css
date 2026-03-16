@@ -1,0 +1,155 @@
+body {
+
+}
+
+.movie-intro-container {
+    display: flex;
+    flex-direction: column;
+    background-image: url("movie-banners/TheGodfatherBanner.png");
+    /*background: linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(0, 0, 0, 0.603) 50%, rgba(0,0,0,0) 100%); */
+    background-size: cover;
+
+}
+
+.movie-info-container {
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.movie-banner {
+    /*background-color: lightgoldenrodyellow;*/
+    height: 500px;
+    /* background-image: url("movie-banners/TheGodfatherBanner.avif"); */
+    background-size: cover;
+
+}
+
+.movie-poster-container {
+    /*background-color: lightgreen; */
+    width: 15%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.movie-poster {
+    height: 100%;
+    border-radius: 10px;
+    
+
+}
+
+.movie-title-and-description {
+    display: flex;
+    flex-direction: column;
+    /* background-color: lightblue; */
+
+    width: 85%;
+    height: 300px;
+}
+
+.movie-description {
+    display: flex;
+    /*background-color: lightcoral; */
+    height: 260px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-family: arial;
+
+}
+
+.movie-title {
+    font-size: 36px;
+    font-family: arial;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    /* background-color: black; */
+    color: white;
+}
+
+.movie-suggestions {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.85);
+
+}
+
+.movie-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+
+.suggested-movie-poster-container {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.suggestions-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: arial;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+
+.movie-preview {
+    font-family: arial;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.movie-preview-title {
+    font-family: arial;
+    font-weight: bold;
+    padding-top: 10px;
+
+}
+
+.movie-preview-banner {
+    font-family: arial;
+    font-weight: bold;
+    padding-top: 10px;
+
+}
+
+.catalog-link {
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.875), rgba(0,0,0,0.86),  rgba(0,0,0,0.85));
+    font-family: arial;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
