@@ -1,0 +1,239 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 20px;
+}
+
+.header-left {
+    font-family: arial;
+}
+
+#hamburger-menu-button {
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hamburger-menu-dropdown.active {
+    left: 4px;
+}
+
+.hamburger-menu-dropdown {
+    position: fixed;
+    background-color: black;
+    left: -550px;
+    top: 60px;
+    width: 500px;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-shadow: 0px 0px 20px 2px rgb(31, 31, 31);
+    
+
+}
+
+.hamburger-menu-redirection {
+    background-color: black;
+    border-radius: 4px;
+
+    border-width: 1px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    transition: background-color 0.1 ease;
+
+}
+
+.hamburger-menu-redirection:hover {
+    background-color: rgb(70, 70, 70);
+    transition: background-color 0.1 ease;
+
+}
+
+#hamburger-menu-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#hamburger-menu-button:active {
+    background-color: rgba(255, 255, 255, 0.2);
+
+}
+
+.hamburger-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+}
+
+#search-button {
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    width: 30px;
+    border-radius: 4px;
+}
+
+#search-bar {
+    outline: none;
+    opacity: 0;
+    width: 0;
+    transition: opacity 0.15s ease, width 0.15s ease;
+}
+
+.header-right.active #search-bar {
+    width: 200px;
+    margin-right: 10px;
+    opacity: 1;
+}
+
+.header-middle {
+    font-family: shrikhand;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-right {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightcoral;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 300px;
+}
+
+.hook {
+    font-size: 48px;
+    font-family: shrikhand;
+
+}
+
+.description {
+    text-align: center;
+    font-family: racing sans one;
+    font-size: 20px;
+}
+
+.main-search-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.movie-suggestions {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.85);
+
+}
+
+.movie-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+
+.suggested-movie-poster-container {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.suggestions-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: arial;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+
+.movie-preview {
+    font-family: arial;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: background-color 0.25s ease;
+}
+
+.movie-preview:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.movie-preview-title {
+    font-family: arial;
+    font-weight: bold;
+    padding-top: 10px;
+
+}
+
+.movie-preview-banner {
+    font-family: arial;
+    font-weight: bold;
+    padding-top: 10px;
+
+}
+
+.catalog-link {
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.875), rgba(0,0,0,0.86),  rgba(0,0,0,0.85));
+    font-family: arial;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
