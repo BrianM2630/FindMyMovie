@@ -136,11 +136,11 @@ body {
     background-color: lightcoral;
     padding-top: 50px;
     padding-bottom: 50px;
-    height: 300px;
 }
 
-.hook {
+.title {
     font-size: 48px;
+    margin-bottom: 100px;
     font-family: shrikhand;
 
 }
@@ -149,6 +149,10 @@ body {
     text-align: center;
     font-family: racing sans one;
     font-size: 20px;
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    
 }
 
 .main-search-bar {
@@ -156,6 +160,17 @@ body {
     flex-direction: row;
 }
 
+.centered-pic-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+#developers-picture {
+    width: 40%;
+    
+}
 
 .movie-suggestions {
     display: flex;
