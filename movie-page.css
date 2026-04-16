@@ -1,6 +1,4 @@
-body {
 
-}
 
 .movie-intro-container {
     display: flex;
@@ -41,10 +39,17 @@ body {
 .movie-poster {
     height: 100%;
     border-radius: 10px;
-    
+    transition: border-style 0.25s ease;
+
 
 }
 
+/*
+.movie-poster:hover {
+    border-style: groove;
+
+}
+*/
 .movie-title-and-description {
     display: flex;
     flex-direction: column;
@@ -77,4 +82,5 @@ body {
     /* background-color: black; */
     color: white;
 }
+
 

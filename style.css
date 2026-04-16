@@ -131,27 +131,36 @@ body {
 .introduction {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+
+    justify-content: center;
     align-items: center;
-    background-color: lightcoral;
+
+    color: yellow;
+    background-image: url(pictures/mainpageBackground.gif);
+    /*background: no-repeat;
+    dont know why this isnt working
+   */ 
+    background-size: cover;
+    background-position: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    height: 74vh;
 }
 
 .title {
-    font-size: 48px;
-    margin-bottom: 100px;
+    font-size: 20px;
     font-family: shrikhand;
 
 }
 
 .description {
     text-align: center;
+    color: yellow;
     font-family: racing sans one;
-    font-size: 20px;
-    width: 40%;
+    font-size: 48px;
+    width: 40vw;
     margin-top: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     
 }
 
@@ -175,7 +184,7 @@ body {
 .movie-suggestions {
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgb(0, 0, 0);
 
 }
 
@@ -193,6 +202,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+
 }
 
 .suggestions-title {
@@ -200,10 +211,11 @@ body {
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 24px;
     font-family: arial;
     font-weight: bold;
     font-style: italic;
-    color: white;
+    color: yellow;
 }
 
 .movie-preview {
@@ -217,12 +229,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
-    transition: background-color 0.25s ease;
+    color: yellow;
+    transition: background-color 0.25s ease, color 0.25s ease;
 }
 
 .movie-preview:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: yellow; /*Consider changing this to yellow*/
+    color: black;
 }
 
 .movie-preview-title {
@@ -245,10 +258,21 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
 
-    background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.875), rgba(0,0,0,0.86),  rgba(0,0,0,0.85));
     font-family: arial;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+
+}
+
+#on-screen-catalog-button {
+    background-color: yellow;
+    border-style: none;
+    height: 40px;
+    width: 160px;
+    border-radius: 26px;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 14px;
 
 }
